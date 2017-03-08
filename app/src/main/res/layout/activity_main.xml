@@ -1,0 +1,278 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="0.6"
+        android:background="@color/gray1"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/tvExpression"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="5dp"
+                android:gravity="right"
+                android:text=""
+                android:textColor="@color/blue3"
+                android:textSize="44sp" />
+        </LinearLayout>
+    </ScrollView>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:layout_weight="1.5"
+            android:orientation="horizontal">
+
+            <Button
+                android:id="@+id/btnC"
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:layout_weight="1"
+                android:background="@drawable/changebackgroundbuttonborder"
+                android:text="C"
+                android:textColor="@color/blue2"
+                android:textSize="40sp" />
+
+            <Button
+                android:id="@+id/btnDiv"
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:layout_weight="1"
+                android:background="@drawable/changebackgroundbuttonborder"
+                android:src="@android:drawable/ic_input_delete"
+                android:text="÷"
+                android:textColor="@color/blue2"
+                android:textSize="40sp" />
+
+            <Button
+                android:id="@+id/btnMul"
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:layout_weight="1"
+                android:background="@drawable/changebackgroundbuttonborder"
+                android:text="×"
+                android:textColor="@color/blue2"
+                android:textSize="40sp" />
+
+            <ImageButton
+                android:id="@+id/ibDel"
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:layout_weight="1"
+                android:background="@drawable/changebackgroundbuttonborder"
+                android:src="@android:drawable/ic_input_delete"
+                android:textColor="@color/blue2"
+                android:textSize="40sp"
+                android:tint="@android:color/holo_blue_dark" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:layout_weight="1.5"
+            android:orientation="horizontal">
+
+            <Button
+                android:id="@+id/btn7"
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:layout_weight="1"
+                android:background="@drawable/changebackgroundnumberbutton"
+                android:text="7"
+                android:textColor="@color/blue3"
+                android:textSize="40sp" />
+
+            <Button
+                android:id="@+id/btn8"
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:layout_weight="1"
+                android:background="@drawable/changebackgroundnumberbutton"
+                android:text="8"
+                android:textColor="@color/blue3"
+                android:textSize="40sp" />
+
+            <Button
+                android:id="@+id/btn9"
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:layout_weight="1"
+                android:background="@drawable/changebackgroundnumberbutton"
+                android:text="9"
+                android:textColor="@color/blue3"
+                android:textSize="40sp" />
+
+            <Button
+                android:id="@+id/btnSub"
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:layout_weight="1"
+                android:background="@drawable/changebackgroundbuttonborder"
+                android:text="–"
+                android:textColor="@color/blue2"
+                android:textSize="40sp" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:layout_weight="1.5"
+            android:orientation="horizontal">
+
+            <Button
+                android:id="@+id/btn4"
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:layout_weight="1"
+                android:background="@drawable/changebackgroundnumberbutton"
+                android:text="4"
+                android:textColor="@color/blue3"
+                android:textSize="40sp" />
+
+            <Button
+                android:id="@+id/btn5"
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:layout_weight="1"
+                android:background="@drawable/changebackgroundnumberbutton"
+                android:text="5"
+                android:textColor="@color/blue3"
+                android:textSize="40sp" />
+
+            <Button
+                android:id="@+id/btn6"
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:layout_weight="1"
+                android:background="@drawable/changebackgroundnumberbutton"
+                android:text="6"
+                android:textColor="@color/blue3"
+                android:textSize="40sp" />
+
+            <Button
+                android:id="@+id/btnPlus"
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:layout_weight="1"
+                android:background="@drawable/changebackgroundbuttonborder"
+                android:text="+"
+                android:textColor="@color/blue2"
+                android:textSize="40sp" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:layout_weight="1.5"
+            android:orientation="horizontal">
+
+            <Button
+                android:id="@+id/btn1"
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:layout_weight="1"
+                android:background="@drawable/changebackgroundnumberbutton"
+                android:text="1"
+                android:textColor="@color/blue3"
+                android:textSize="40sp" />
+
+            <Button
+                android:id="@+id/btn2"
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:layout_weight="1"
+                android:background="@drawable/changebackgroundnumberbutton"
+                android:text="2"
+                android:textColor="@color/blue3"
+                android:textSize="40sp" />
+
+            <Button
+                android:id="@+id/btn3"
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:layout_weight="1"
+                android:background="@drawable/changebackgroundnumberbutton"
+                android:text="3"
+                android:textColor="@color/blue3"
+                android:textSize="40sp" />
+
+            <Button
+                android:id="@+id/btnBracket"
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:layout_weight="1"
+                android:background="@drawable/changebackgroundbuttonborder"
+                android:text="()"
+                android:textColor="@color/blue2"
+                android:textSize="40sp" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:layout_weight="1.5"
+            android:orientation="horizontal">
+
+            <Button
+                android:id="@+id/btn0"
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:layout_weight="1"
+                android:background="@drawable/changebackgroundnumberbutton"
+                android:text="0"
+                android:textColor="@color/blue3"
+                android:textSize="40sp" />
+
+            <Button
+                android:id="@+id/btnDoc"
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:layout_weight="1"
+                android:background="@drawable/changebackgroundnumberbutton"
+                android:text="."
+                android:textColor="@color/blue3"
+                android:textSize="40sp" />
+
+            <Button
+                android:id="@+id/btnRev"
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:layout_weight="1"
+                android:background="@drawable/changebackgroundnumberbutton"
+                android:text="+/-"
+                android:textColor="@color/blue3"
+                android:textSize="40sp" />
+
+            <Button
+                android:id="@+id/btnEqual"
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:layout_weight="1"
+                android:background="@drawable/changebackgroundbuttonborder"
+                android:text="="
+                android:textColor="@color/green"
+                android:textSize="40sp" />
+
+        </LinearLayout>
+    </LinearLayout>
+</LinearLayout>

@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#3F51B5</color>
+    <color name="colorPrimaryDark">#303F9F</color>
+    <color name="colorAccent">#FF4081</color>
+    <color name="blue1">#11A4C3</color> <!--mau nen may tinh-->
+    <color name="blue2">#10A5C2</color> <!--mau text buttonborder-->
+    <color name="blue3">#2C5A61</color> <!--mau text numberbutton-->
+    <color name="orange">#fc9d03</color>
+    <color name="gray1">#F0F0F0</color> <!--mau mang hinh-->
+    <color name="gray2">#F3F4F4</color> <!--mau buttonborder-->
+    <color name="gray3">#DDE2E4</color> <!--mau border button-->
+    <color name="gray4">#FBFBFB</color> <!--mau numberbutton-->
+    <color name="green">#46A749</color>
+</resources>
